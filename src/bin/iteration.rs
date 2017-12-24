@@ -2,14 +2,15 @@ pub fn loops() {
     println!("for loop");
 
 
-    println!("simple for loop prints 0 - 9 to console");
+    println!("for x in 0..10");
     for x in 0..10 {
         println!("{}", x);
     }
 
-    println!("infinite loop");
+    // infinite loop
+    println!("loop");
     loop {
-        println!("infinite loop - break" );
+        println!("break" );
         break;
     }
 }
