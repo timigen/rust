@@ -31,4 +31,11 @@ pub fn loops() {
             _ => println!("{} is NOT a banana", fruit),
         }
     }
+
+    println!("\nwhile n < 5");
+    let mut n = 1;
+    while n < 5 {
+        println!("{}", n);
+        n += 1;
+    }
 }
