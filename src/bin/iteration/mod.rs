@@ -1,8 +1,5 @@
 pub fn loops() {
-    println!("for loop");
-
-
-    println!("for x in 0..10");
+    println!("\n\nfor x in 0..10");
     for x in 0..10 {
         println!("{}", x);
     }
